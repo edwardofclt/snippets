@@ -1,7 +1,7 @@
 import { Col, Row } from "react-bootstrap"
 import styled from "styled-components"
 
-function App() {
+function Panels() {
   return (
     <BodyContent>
       <Row className="callouts">
@@ -111,4 +111,4 @@ const BodyContent = styled.div`
   }
 `
 
-export default App;
+export default Panels;
